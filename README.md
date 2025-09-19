@@ -6,7 +6,7 @@ This example shows how to run a **Model Context Protocol (MCP) server** for Chat
 
 ## Demo
 
-`https://mcp-chatgpt-starter.wasmer.app/`
+`https://mcp-chatgpt-starter.wasmer.app/sse`
 
 Add it to ChatGPT as a connector (no auth), and then just ask ChatGPT to interact with it:
 
@@ -86,5 +86,5 @@ Your MCP server will now be running and ready for connections from an MCP client
 1. Include both `server.py` and `records.json` in your project.
 2. Deploy to Wasmer Edge, ensuring the entrypoint is `server.py`.
 3. Access it at:
-   `https://<your-subdomain>.wasmer.app/`
+   `https://<your-subdomain>.wasmer.app/sse`
 
